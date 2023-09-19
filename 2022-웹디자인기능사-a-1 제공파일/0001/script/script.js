@@ -18,4 +18,13 @@ $('.c1 a:nth-child(1)').on('click',function(){
 $('.popup a').on('click',function(){
     $('.popup').hide()
 })
-
+/*  공지사항과 갤러리는 탭 기능을 이용하여 제작하여야 한다. 
+각 탭을 클릭(Click) 시 해당 탭에 대한 내용이 보여야 한다. */
+$('.c12 .title a:first-child').on('click',function(){
+    $('.c1').show()
+    $('.c2').hide()
+})
+$('.c12 .title a:last-child').on('click',function(){
+    $('.c1').hide()
+    $('.c2').show()
+})
