@@ -1,0 +1,59 @@
+@charset "utf-8";
+body, html {background:#fff;}
+* {
+    box-sizing:border-box;
+    margin:0; padding:0; list-style:none;
+    text-decoration: none;
+    color:#333; font-size:16px;
+}
+/* #a300e0 */
+#popup {
+    background:#a300e0; position:fixed; left:50%; top:50%; transform:translate(-50%, -50%);
+    width:500px; height:400px; padding:25px;}
+#popup * {color:#fff;}
+#popup h1 {}
+#popup p {}
+#popup a {}
+header {width:200px; float:left;}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {margin:10px; text-align:center;}
+header nav > ul {}
+header nav > ul li {}
+header nav > ul > li a {transition:all 0.5s; display:block; padding:10px 0;}
+header nav > ul > li a:hover {background:#a300e0; color:#fff;}
+header nav > ul > li > .sub {}
+header nav > ul > li > .sub li {}
+header nav > ul > li > .sub li a {}
+#right_wrap {width:800px; float:left;}
+#right_wrap main {}
+#right_wrap main #slide_wrap {height:350px; overflow:hidden;}
+#right_wrap main #slide_wrap .slide_container {}
+#right_wrap main #slide_wrap .slide_container > * {
+    position:absolute;
+}
+#right_wrap main #slide_wrap .slide_container .slide1 {}
+#right_wrap main #slide_wrap .slide_container .slide2 {}
+#right_wrap main #slide_wrap .slide_container .slide3 {}
+#right_wrap main #slide_wrap .slide_container > div {}
+#right_wrap main #slide_wrap .slide_container > div img {}
+#right_wrap main .c {display:flex;}
+#right_wrap main .c .c12 {}
+#right_wrap main .c .c12 .title {}
+#right_wrap main .c .c12 .title a {}
+#right_wrap main .c .c12 .title .active {background:#a300e0; color:#fff;}
+#right_wrap main .c .c12 .contents {}
+#right_wrap main .c .c12 .contents .c1 {}
+#right_wrap main .c .c12 .contents .c1 a {display:block;}
+#right_wrap main .c .c12 .contents .c2 {display:flex;}
+#right_wrap main .c .c12 .contents .c2 a {}
+#right_wrap main .c .c12 .contents .c2 a img {width:100%;}
+#right_wrap footer {display:flex;}
+#right_wrap footer .logo {}
+#right_wrap footer .logo a {}
+#right_wrap footer .logo a img {filter:grayscale(100%);}
+#right_wrap footer .right {text-align:center; width:600px;}
+#right_wrap footer .right .menu {}
+#right_wrap footer .right .menu a {}
+#right_wrap footer .right .copy {}
